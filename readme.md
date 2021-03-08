@@ -4,21 +4,21 @@ author: Nicola Carrino, Sizhe Tian
 
 ## Run
 **File Structure** 
-> 	-kitti
-	-malaga-urban-dataset-extract-07
-	-parking
-	-recording
-	-vamr_project
-		-main.m
-		-processFrame.m
-		-bundleAdjustment
-		-keypoint
-		-localization
-		-parameters
-		-plotting
-		-pose
-		-poseRefinement
-		-projection
+> 	- kitti
+	- malaga-urban-dataset-extract-07
+	- parking
+	- recording
+	- vamr_project
+		- main.m
+		- processFrame.m
+		- bundleAdjustment
+		- keypoint
+		- localization
+		- parameters
+		- plotting
+		- pose
+		- poseRefinement
+		- projection
 
 To run the pipeline, put dataset in corresponding folder, and run `vamr_project/main.m` in matlab
 To change the dataset, change the variable `ds` of `vamr_project/main.m`
